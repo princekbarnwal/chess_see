@@ -36,36 +36,7 @@ ChessSee is a chess analytics web application that lets users explore public Che
 - npm
 - Git
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/chess_see.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd chess_see
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL displayed in your terminal.
-
-
-## 📊 Data Source
+📊 Data Source
 
 ChessSee uses the [Chess.com Public API](https://www.chess.com/news/view/published-data-api) to retrieve publicly available player information, ratings, and game archives.
 
