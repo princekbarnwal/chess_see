@@ -1,19 +1,105 @@
-# React + Vite
+# ♟️ ChessSee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Explore chess players. Track ratings. Discover performance.**
 
-Currently, two official plugins are available:
+ChessSee is a chess analytics web application that lets users explore public Chess.com player profiles, view ratings, analyze rating progression, and browse recent games — all in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** https://chesssee.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Features
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- **Player Search** — Look up players using their Chess.com usernames.
+- **Player Profiles** — View profile information, avatars, membership dates, and profile links.
+- **Rating Overview** — Explore current ratings, peak ratings, and win/draw/loss records across different time controls.
+- **Rating Progression** — Visualize rating changes using interactive charts based on archived games.
+- **Performance Summary** — View wins, losses, draws, and win rate.
+- **Recent Games** — Browse public games and filter them by Bullet, Blitz, Rapid, and Daily formats.
+- **Responsive Interface** — Explore chess statistics through a clean, chess-inspired design.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — Component-based user interface
+- **Vite** — Development server and build tooling
+- **JavaScript** — Application logic
+- **CSS** — Styling and responsive layout
+- **Recharts** — Rating progression charts
+- **Chess.com Public API** — Public player profiles, statistics, and game archives
+- **Vercel** — Deployment and hosting
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/chess_see.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd chess_see
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+
+## 📊 Data Source
+
+ChessSee uses the [Chess.com Public API](https://www.chess.com/news/view/published-data-api) to retrieve publicly available player information, ratings, and game archives.
+
+Rating progression is based on archived games and may not match official daily rating snapshots. Available data depends on the player's public profile and game archive.
+
+## 🔒 Privacy
+
+ChessSee is a frontend application that retrieves publicly available Chess.com data. It does not require users to provide a Chess.com password.
+
+## 🗺️ Future Improvements
+
+Potential improvements include:
+
+- More detailed performance analytics
+- Additional rating and game visualizations
+- Improved mobile experience
+- Opening and time-control analysis
+- Enhanced game-by-game statistics
+
+## 🤝 Contributing
+
+Contributions, suggestions, and bug reports are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes.
+4. Submit a pull request.
+
+## 📄 License
+
+No license has been specified yet. Add a `LICENSE` file if you intend to distribute the project under an open-source license.
+
+---
+
+**Built with ♟️ for chess enthusiasts.**
+
+*ChessSee is an independent project and is not affiliated with or endorsed by Chess.com.*
